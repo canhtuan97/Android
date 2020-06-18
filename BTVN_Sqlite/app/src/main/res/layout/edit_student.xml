@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập tên " />
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:id="@+id/ngaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ngay_sinh"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:id="@+id/queQuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="que quan"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:id="@+id/mssv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mssv"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xoá" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email" />
+    <TextView
+        android:id="@+id/ngaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ngay_sinh" />
+    <TextView
+        android:id="@+id/queQuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="que_quan" />
+    <TextView
+        android:id="@+id/mssv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mssv" />
+</LinearLayout>
